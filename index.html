@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link data-default-
+    icon="favicon.ico"
+    rel="icon" sizes="192x192"
+    href="favicon.ico"
+    />
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left">
+            <div class="close">
+                <img class="invert" src="close.svg" alt="">
+
+            </div>
+            <div class="home  bg-grey rounded m-1 p-1">
+                <div class="logo">
+                    <img width="150" class=invert src="logo.svg" alt="">
+                </div>
+                <ul>
+                    <li>
+                        <img class=invert src="home.svg" alt="home">Home
+                    </li>
+                    <li>
+                        <img class=invert src="search.svg" alt="home">search
+                    </li>
+                </ul>
+            </div>
+            <div class="library bg-grey rounded m-1 p-1">
+                <div class="heading">
+                    <img class=invert src="playlist.svg" alt="">
+                    <h2>
+                        Your Library
+                    </h2>
+                </div>
+                <div class="headingtwo">
+                    <img src="search_icon.png" width="20px" height="20px">
+                    <p>Recents</p>
+                    <img src="hamburger.svg" width="20px" height="20px">
+                </div>
+                        <div class="Lmatteritems">
+                            <img class="Lmatteritemsimg" src="liked.png" alt="liked songs">
+                            <p>Liked Songs</p>
+                        </div>
+                        <div class="Lmatteritems">
+                            <img class="Lmatteritemsimg" src="starboy.png" alt="liked songs">
+                            <p>Cool vibes</p>
+                        </div>
+                        <div class="Lmatteritems">
+                            <img class="Lmatteritemsimg" src="newsongout.png" alt="liked songs">
+                            <p>Hindi Hits</p>
+                        </div>
+                        <div class="Lmatteritems">
+                            <img class="Lmatteritemsimg" src="demi.png" alt="liked songs">
+                            <p>English Hits</p>
+                        </div>
+                        <div class="Lmatteritems">
+                            <img class="Lmatteritemsimg" src="chor.png" alt="liked songs">
+                            <p>Punjabi Hits</p>
+                        </div>
+                        <div class="Lmatteritems">
+                            <img class="Lmatteritemsimg" src="sel.png" alt="liked songs">
+                            <p>Selena Hits</p>
+                        </div>
+
+            </div>
+
+        </div>
+        <div class="right bg-grey rounded">
+            <div class="header">
+                <div class="nav">
+                    <div class="hamburgercontainer">
+
+
+                        <img width="40px" class="invert hamburger" src="hamburger.svg" alt="">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="31" height="31"
+                            color="#000000" fill="none">
+                            <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="31" height="31"
+                            color="#000000" fill="none">
+                            <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="signup" >Sign up</button>
+                    <button class="login">Log in</button>
+                    <button class="installapp">Install app</button>
+                </div>
+            </div>
+            <div class="tiles">
+                <div class="tt">
+                    <img src="sm.png" style="width: 45px;"/>
+                    <p>Soft instrumental music</p>
+                </div>
+                <div class="tt">
+                    <img src="rr.png" style="width: 45px;"/>
+                    <p>Release Radar</p>
+                </div>
+                <div class="tt">
+                    <img src="dm1.png" style="width: 45px;"/>
+                    <p>Daily Mix 1</p>
+                </div>
+                <div class="tt">
+                    <img src="dm2.png" style="width: 45px;"/>
+                    <p>Daily Mix 2</p>
+                </div>
+                <div class="tt">
+                    <img src="dm3.jpeg" style="width: 45px;"/>
+                    <p>Daily Mix 3</p>
+                </div>
+                <div class="tt">
+                    <img src="gt.png" style="width: 45px;"/>
+                    <p>Global Top 50</p>
+                </div>
+            </div>    
+            <div class="SpotifyPlaylist">
+                <div class="markings">
+                    <h1>Made For You</h1>
+                    <p>Show all</p>
+                </div>
+                
+                <div class="cardcontainer">
+                    <div data-folder="cs" class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="https://seeded-session-images.scdn.co/v2/img/122/secondary/artist/4YRxDV8wJFPHPTeXepOstw/en-GB"
+                            alt="">
+                        <h2>Arijit Singh Hits!</h2>
+                        <p>Hits to boost your mood</p>
+                    </div>
+                    <div data-folder="ncs" class="card ">
+                        <img src="newsongout.png" alt="">
+                        <h2>Do Jahaan</h2>
+                        <p>Aditya Rikhari</p>
+                    </div>
+                    <div class="card ">
+                        <img src="t1.png" alt="">
+                        <h2>2002</h2>
+                        <p>Summer Hits</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="demi.png" alt="">
+                        <h2>Roar</h2>
+                        <p>Demi Lovato</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="liked.png" alt="">
+                        <h2>Liked Hits</h2>
+                        <p>Your favorite liked hits!</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="chor.png"alt="">
+                        <h2>Chor</h2>
+                        <p>Punjabi Hit</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="sel2.png" alt="">
+                        <h2>Happy Hits!</h2>
+                        <p>Hits to boost your mood and fill with happiness</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="t2.png"alt="">
+                        <h2>Love Story</h2>
+                        <p>Taylor Swift</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="jb.png"alt="">
+                        <h2>The New Me</h2>
+                        <p>Juatin Bieber hits</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="sel.png"alt="">
+                        <h2>Seldom Selena</h2>
+                        <p>Selena Gomez</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="t.jpeg"alt="">
+                        <h2>1998</h2>
+                        <p>Taylor Swift</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="king.png"alt="">
+                        <h2>Sarkaare</h2>
+                        <p>KING</p>
+                        
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="t.png"alt="">
+                        <h2>Our Song</h2>
+                        <p>A Taylor Gem</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="one.png" alt="">
+                        <h2>I'm the one</h2>
+                        <p>DJ Khaled</p>
+                    </div>
+                    <div class="card ">
+                        <div class="play">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+
+                                <g>
+                                    <circle cx="50%" cy="50%" r="50%" fill="#00FF00" />
+                                    <path
+                                        d="M18.8906 12.846C18.5371 14.189 16.8667 15.138 13.5257 17.0361C10.296 18.8709 8.6812 19.7884 7.37983 19.4196C6.8418 19.2671 6.35159 18.9776 5.95624 18.5787C5 17.6139 5 15.7426 5 12C5 8.2574 5 6.3861 5.95624 5.42132C6.35159 5.02245 6.8418 4.73288 7.37983 4.58042C8.6812 4.21165 10.296 5.12907 13.5257 6.96393C16.8667 8.86197 18.5371 9.811 18.8906 11.154C19.0365 11.7084 19.0365 12.2916 18.8906 12.846Z"
+                                        fill="black" stroke="black" stroke-width="1.5" stroke-linejoin="sharp" />
+                                </g>
+                            </svg>
+
+                        </div>
+                        <img src="starboy.png" alt="">
+                        <h2>STARBOY</h2>
+                        <p>The Weekend</p>
+                        
+                    </div>
+                    <div class="footer">
+                        <div><a href="https://www.spotify.com/in-en/legal/"><span>Legal</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/safetyandprivacy/"><span>Safety &amp; Privacy
+                                    Center</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a></div>
+                        <div><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                        </div>
+                        <div><a href="https://www.spotify.com/in-en/accessibility/"><span>Accessibility</span></a></div>
+                    </div>
+                </div>
+                
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle">
+
+                        </div>
+                    </div>
+                    <div class="abovebar">
+                        <div class="songinfo">
+                            <img src="alone.png" alt="song img" style="width: 55px; height: 57px; border-radius: 7px; margin-top: 0.5rem;" />
+                            <p style="font-size: 15px;font-weight: 800;">Alone </p>
+                            <p style="font-size: 11px; font-weight: 400;">Alan Walker</p>
+                            <img src="create.png" alt="create button" style="width:16px; height: 15px; margin-left: 178px; margin-top: 31px; border-radius: 10px;"/>
+                        </div>
+                        <div class="songbuttons">
+                            <img width="20px" id="previous" src="previous.svg" alt="">
+                            <img width="20px" id="play" src="pause.svg" alt="">
+                            <img width="20px" id="next" src="next.svg" alt="">
+                        </div>
+                        <div class="timevol">
+                            <div class="songtime">
+                                
+                            </div>
+                            <div class="volume">
+                                <img width="25" src="volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume" id="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+
+</html>
